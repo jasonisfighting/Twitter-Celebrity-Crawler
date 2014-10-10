@@ -2,7 +2,7 @@ require 'open-uri'
 require 'twitter'
 name = [] 
 ur = "http://en.wikipedia.org/wiki/List_of_American_film_actresses"
-path = "/Users/liuzhe/Desktop/celebrity1"
+path = "/Users/xxxx/Desktop/celebrity1"
 client = Twitter::REST::Client.new  do |config|
 	config.consumer_key = "4tzYozOUTabzw4ElqO4lGQ"
 	config.consumer_secret = "iuTXrtKpEFE9fsa9X1vyMq4lMfxFb3hcbCiQz9kVuN0"
